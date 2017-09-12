@@ -1,0 +1,47 @@
+body{
+background-image: url("../img/fundo-03.png");
+background-size: 100%;
+background-repeat: no-repeat;
+  display: block;
+  float: none;
+  width: 100%;
+  height:100%;
+  color:white !important;
+  background-color: #b1b4b8 !important;
+  background-size: cover;
+
+}
+
+.imageresizemobile {
+    max-width: 100%;
+		/*height: 100%;*/
+    height: auto;
+    overflow-x: hidden;
+    width: 640px;
+}
+
+@font-face {
+  font-family: "JosefinSans-Light";
+  src: url("../fonts/JosefinSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "JosefinSans-SemiBold";
+  src: url("../fonts/JosefinSans-SemiBold.ttf");
+}
+@media (max-width: 964px){.none-display-desk { display: none; }
+
+.imgntw{text-align: center;}
+}
+@media (min-width: 965px){.none-display-mob { display: none; }
+}
+
+@media (max-width: 965px){.text-center-mob { text-align: center; }
+}
+@media (max-width: 965px){.none-l-padd { padding-left: 0 !important; }
+}
+
+
+
+.jose-semi {font-family:"JosefinSans-SemiBold",sans-serif; }
+.jose-light {font-family:"JosefinSans-Light",sans-serif; }

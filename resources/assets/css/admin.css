@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto, Arial, "Droid Sans", sans-serif;
+}
+
+.form_wizard .stepContainer {
+    overflow-y: hidden;
+}
+
+#html-editor, #css-editor, #javascript-editor, #email-editor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+textarea[name=html-editor], textarea[name=css-editor], textarea[name=javascript-editor], textarea[name=email-editor] {
+    display: none;
+}
+
+.dropzone {
+    min-height: 300px;
+    border: 2px dashed #e5e5e5;
+    border-radius: 2px;
+    padding: 0px;
+    padding-left: 20px;
+    overflow-y: scroll;
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 5px;
+}
+
+.dropzone .dz-message {
+    font-size: 15px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left !important;
+    float: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+}
+
+.dropzone .dz-preview .dz-progress {
+  border: 1px solid #e4e4e4;
+}
+
+.dropzone .dz-preview .dz-remove {
+    border: 1px solid #ece4e4;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #a7a7a7;
+    padding: 5px;
+}
+
+
+.dropzone .dz-preview .dz-remove:hover {
+    color: #fff;
+    background-color: #ece4e4;
+    text-decoration: none;
+}
+
+#create-landing-page, #create-client {
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+}

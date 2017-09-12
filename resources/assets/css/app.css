@@ -1,0 +1,9 @@
+.page-title .title_left h3 {
+    margin-left: 5px !important;
+}
+
+.navbar-nav .open .dropdown-menu.msg_list {
+    width: 300px;
+    max-height: 275px;
+    overflow-y: scroll;
+}

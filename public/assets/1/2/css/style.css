@@ -1,0 +1,259 @@
+@font-face {
+  font-family: "Hind-Regular";
+  src: url("../fonts/Hind-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Hind-SemiBold";
+  src: url("../fonts/Hind-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Hind-Bold";
+  src: url("../fonts/Hind-Bold.ttf");
+}
+
+html, body { margin: 0; padding: 0;}
+.img-background {
+  background-image: url(../img/fundo_16-9.jpg);
+  min-width: 100%;
+   min-height: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .img-background {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+
+
+.form-container {
+  background-color: #1493a3;
+  position: fixed;
+  max-width: 540px;
+  min-height: 100%;
+  right: 0;
+  padding: 10px 35px;
+  padding-left: 65px;
+  height: 100%;
+  overflow: auto;
+}
+
+.nossafreguesia-logo {
+  margin-top: 20px;
+  margin-left: 45px;
+  float: left;
+}
+
+.logo-mobile {
+  display: none;
+  text-align: center;
+}
+
+.mobile-logo {
+  text-align: center;
+}
+
+.social-icons
+{
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.img-icon-1 , .img-icon-2 { float: left; }
+
+.sistema-informatico {
+  font-family: "Hind-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.gestao-territorio {
+  font-family: "Hind-Regular", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.novidades {
+  font-family: "Hind-Regular", sans-serif;
+  font-size: 16px;
+  color:  #333434;
+  text-align: center;
+}
+
+.input-group
+{
+  margin-bottom: -10px;
+  overflow-y: auto;
+   display: block !important;
+   font-family: "Hind-Regular", sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+
+.main { padding: 10px 30px; }
+
+.control-label { display: none;}
+
+#submit {
+  margin-top: 25px;
+  background-color: #333434;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 15px;
+  transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+}
+
+#submit:hover {
+  background-color: #ffffff;
+  color: #1493a3;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.btn-lg {
+  font-family: "Hind-SemiBold", sans-serif;
+}
+
+.dados-spam {
+  font-family: "Hind-Regular", sans-serif;
+  font-size: 12px;
+  color:  white;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.copyright {
+  font-family: "Hind-Regular", sans-serif;
+  font-size: 14px;
+  color:  white;
+  text-align: center;
+}
+
+.img-rightco { vertical-align: bottom;}
+
+@media (max-width:780px) {
+
+ .form-container {
+   max-width: 100%;
+   padding: 10px 25px;
+   padding-left: 25px;
+ }
+
+ .social-icons {
+   padding-right: 0;
+ }
+
+ .logo-mobile {
+   display: inherit;
+   text-align: center;
+ }
+
+ .logo-nossafreguesia {
+   display: none;
+ }
+ }
+
+ @media (max-width:385px) {
+   #submit {
+     font-size: 9px;
+   }
+
+   #submit:hover {
+     font-size: 9px;
+   }
+ }
+
+ .social-icons{
+ text-align: right;
+ padding-right: 15px;
+ padding-top: 10px;
+ margin-bottom: 25px;
+ }
+
+.ImgOnHover{
+ display: inline-block;
+ width: 30px;
+ background: url('../img/facebook.png') no-repeat top left;
+ background-size:100%;
+ content: "";
+ height:30px;
+}
+
+.ImgOnHover:hover{
+ background: url('../img/facebook-hover.png') no-repeat top left;
+ background-size:100%;
+}
+
+.ImgOnHover2{
+ display: inline-block;
+ width: 30px;
+ background: url('../img/Linkedin.png') no-repeat top right;
+ background-size:100%;
+ content: "";
+ height:30px;
+}
+
+.ImgOnHover2:hover{
+ background: url('../img/Linkedin-hover.png') no-repeat top right;
+ background-size:100%;
+}
+
+.ImgOnHover3{
+ display: inline-block;
+ width: 15px;
+ background: url('../img/icon-1-hover.png') no-repeat top left;
+ background-size:100%;
+ content: "";
+ height:20px;
+
+}
+
+.ImgOnHover3:hover{
+ background: url('../img/icon-1.png') no-repeat top left;
+ background-size:100%;
+}
+
+.ImgOnHover4{
+ display: inline-block;
+ width: 15px;
+ background: url('../img/icon-2-hover.png') no-repeat top left;
+ background-size:100%;
+ content: "";
+ height:20px;
+
+}
+
+.ImgOnHover4:hover{
+ background: url('../img/icon-2.png') no-repeat top left;
+ background-size:100%;
+}

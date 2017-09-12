@@ -1,0 +1,12 @@
+.dt-buttons {
+    position: absolute;
+}
+.dt-button {
+    border: 1px solid #cac9c9;
+    padding: 5px 20px;
+    font-size: 13px;
+}
+
+body {
+    font-family: Roboto, Arial, "Droid Sans", sans-serif;
+}
